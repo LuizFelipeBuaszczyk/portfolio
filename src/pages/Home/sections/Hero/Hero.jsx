@@ -5,7 +5,7 @@ function Hero() {
   
   return (
     <section className={styles.hero}>
-      <div>
+      <div className={styles.imgContainer}>
         <img src={Avatar} alt="Avatar image" />
       </div>
       <article>

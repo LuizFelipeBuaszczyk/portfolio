@@ -1,0 +1,19 @@
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    padding: 20px;
+}
+
+.linkButton {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  padding: 0;
+  margin: 0 1rem;
+  text-decoration: underline;
+  padding: 10px;
+}
