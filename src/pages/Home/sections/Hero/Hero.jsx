@@ -9,7 +9,8 @@ function Hero() {
         <img src={Avatar} alt="Avatar image" />
       </div>
       <article>
-        <h1>Hi Everyone! My name is Luiz Felipe Buaszczyk</h1>
+        <h1>Hi! <br/> I'm Luiz Felipe Buaszczyk</h1>
+        <p>Backend Developer</p>
       </article>
     </section>
   );
