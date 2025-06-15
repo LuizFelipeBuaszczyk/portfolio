@@ -1,9 +1,15 @@
 .navBar{
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     height: 50px;
     align-items: center;
     padding: 20px;
+}
+.navBar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
 }
 
 .linkButton {
@@ -12,8 +18,8 @@
   color: inherit;
   cursor: pointer;
   font: inherit;
+  text-decoration: underline;
   padding: 0;
   margin: 0 1rem;
-  text-decoration: underline;
   padding: 10px;
 }

@@ -1,13 +1,19 @@
 import style from './NavBar.module.css';
+import { Link } from 'react-router-dom';
+import { Link as ScrollLink } from 'react-scroll';
 
 function NavBar() {
 
   return (
     <nav className={style.navBar}>
-      <a href="/">Home</a>
-      <a href="">About me</a>
-      <a href="">Skills</a>
-      <a href="">Projects</a>
+      <ul>
+        <li className={style.linkButton}>
+          <Link to="/">Home</Link>
+        </li>
+        <li className={style.linkButton}><Link to="/projects">Projects</Link></li>
+      </ul>
+
+      
     </nav>
   );
 }
