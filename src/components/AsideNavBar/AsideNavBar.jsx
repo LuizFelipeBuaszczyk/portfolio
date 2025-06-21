@@ -1,10 +1,12 @@
 import { Link as ScrollLink } from 'react-scroll';
 import style from "./AsideNavBar.module.css";
+import responsive from "./AsideNavBar.responsive.module.css"
+
 
 function AsideNavBar(){
 
     return (
-        <aside id='hero' className= {style.aside}>
+        <aside className= {`${style.aside} ${responsive.aside}`}>
             <nav>
                 <ul>
                     <li className={style.linkButton}>

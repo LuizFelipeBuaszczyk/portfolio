@@ -1,11 +1,13 @@
 import styles from './Hero.module.css';
+import responsive from "./Hero.responsive.module.css"
 import Avatar from '../../../../assets/images/avatar.jpg';
+
 
 function Hero() {
   
   return (
-    <section className={styles.hero}>
-      <div className={styles.imgContainer}>
+    <section  id="hero" className={ `${styles.hero} ${responsive.hero}`}>
+      <div className={ `${styles.imgContainer} ${responsive.imgContainer}`} >
         <img src={Avatar} alt="Avatar image" />
       </div>
       <article>
