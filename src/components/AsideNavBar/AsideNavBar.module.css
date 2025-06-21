@@ -1,0 +1,33 @@
+.aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    min-width: 100px;
+}
+
+.aside nav {
+    position: fixed;
+    top: 50%;
+}
+
+.aside nav ul {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.linkButton {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  margin: 0 1rem;
+  padding: 5px;
+}
+
+.linkButton a:hover{
+  text-decoration: underline;
+}

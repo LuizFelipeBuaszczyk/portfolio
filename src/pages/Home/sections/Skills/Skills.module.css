@@ -1,0 +1,19 @@
+.techStack{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 10px;
+}
+
+.techStack img {
+    height: 100px;
+    padding: 20px;
+}
+
+.techStack img:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}

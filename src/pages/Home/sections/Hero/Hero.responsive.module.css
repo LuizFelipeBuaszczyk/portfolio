@@ -1,0 +1,26 @@
+@media (max-width: 480px) {
+
+}  
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;        
+    }
+
+    .hero article {
+        align-items: center;
+        text-align: center;
+    }
+
+    .imgContainer{
+        align-items: center;
+        justify-content: center;
+    }
+    .imgContainer img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+}

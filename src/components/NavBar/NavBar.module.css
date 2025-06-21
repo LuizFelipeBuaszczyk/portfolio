@@ -1,0 +1,32 @@
+.navBar{
+    display: flex;
+    justify-content: start;
+    height: 50px;
+    align-items: center;
+    padding: 20px;
+}
+.navBar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.linkButton {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  padding: 0;
+  margin: 0 1rem;
+  padding: 10px;
+}
+
+.linkButton a {
+  text-decoration: none;
+}
+
+.linkButton a:hover{
+  text-decoration: underline;
+}
