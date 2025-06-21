@@ -1,0 +1,20 @@
+
+
+@media (min-width: 0px) and (max-width: 480px) {
+    .projectCard {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgDiv {
+        width: 100%;
+        border: 0;
+        border-bottom: 1px solid black;
+    }
+}  
+
+@media (min-width: 481px) and (max-width: 768px) {
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+}
