@@ -10,7 +10,9 @@ function NavBar() {
         <li className={style.linkButton}>
           <Link to="/">Home</Link>
         </li>
-        <li className={style.linkButton}><Link to="/projects">Projects</Link></li>
+        <li className={style.linkButton}>
+          <Link to="/projects">Projects</Link>
+        </li>
       </ul>
 
       

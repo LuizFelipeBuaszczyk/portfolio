@@ -18,8 +18,15 @@
   color: inherit;
   cursor: pointer;
   font: inherit;
-  text-decoration: underline;
   padding: 0;
   margin: 0 1rem;
   padding: 10px;
+}
+
+.linkButton a {
+  text-decoration: none;
+}
+
+.linkButton a:hover{
+  text-decoration: underline;
 }
