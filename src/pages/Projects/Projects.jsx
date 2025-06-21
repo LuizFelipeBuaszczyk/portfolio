@@ -1,5 +1,6 @@
 
 import style from "./Projects.module.css"
+import ProjectsSection from "./sections/ProjectsSection/ProjectsSection";
 
 
 function Projects () {
@@ -8,9 +9,7 @@ function Projects () {
    
         <div className="container">
             <h1>Projetos Pessoais</h1>
-            <section className={style.showProjects}>
-                
-            </section>
+            <ProjectsSection />
         </div>
     );
 }

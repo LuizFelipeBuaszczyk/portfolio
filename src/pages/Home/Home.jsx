@@ -1,6 +1,7 @@
 import Hero from "./sections/Hero/Hero";
 import AboutMe from "./sections/AboutMe/AboutMe";
 import Skills from "./sections/Skills/Skills";
+import ContactMe from "./sections/ContactMe/ContactMe";
 import AsideNavBar from "../../components/AsideNavBar/AsideNavBar";
 
 import style from "./Home.module.css"
@@ -15,6 +16,7 @@ function Home() {
         <Hero />
         <AboutMe />
         <Skills />
+        <ContactMe />
       </div>
     </div>
    </div>
