@@ -1,0 +1,15 @@
+.socialMedia {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.socialMedia img {
+    width: 100px;
+}
+
+.socialMedia img:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease; 
+}

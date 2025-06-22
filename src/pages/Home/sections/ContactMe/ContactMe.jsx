@@ -1,5 +1,8 @@
-import style from "./ContactMe.module.css"
-import { sendEmail } from "../../../../utils/sendEmail"
+import style from "./ContactMe.module.css";
+import { sendEmail } from "../../../../utils/sendEmail";
+import SocialMedia from "../../../../components/SocialMedia/SocialMedia";
+
+
 
 function ContactMe() {
 
@@ -7,6 +10,7 @@ function ContactMe() {
         <section id="contact-me" className={style.contactMe}>
             <h1>Contact-me</h1>
             <form action="submit">
+                <SocialMedia />
                 <p>
                     Would you talk to me? Contact me via <strong>e-mail</strong>!
                 </p>
