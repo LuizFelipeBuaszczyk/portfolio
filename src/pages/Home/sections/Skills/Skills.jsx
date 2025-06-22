@@ -1,5 +1,10 @@
 import style from './Skills.module.css'
 
+import cssImg from '../../../../assets/images/css.png'; // Ajuste o caminho relativo de acordo com a sua estrutura
+import htmlImg from '../../../../assets/images/html.png';
+import javaImg from '../../../../assets/images/java.png';
+import postgresImg from '../../../../assets/images/postgres.png';
+
 
 function Skills () {
 
@@ -7,10 +12,10 @@ function Skills () {
         <section id="skills">
             <h1>Skills</h1>
             <div className={style.techStack}>
-                <img src="../../../../src/assets/images/css.png" alt="css"/>
-                <img src="../../../../src/assets/images/html.png" alt="html" />
-                <img src="../../../../src/assets/images/java.png" alt="java" />
-                <img src="../../../../src/assets/images/postgres.png" alt="postgres" />    
+                <img src={cssImg} alt="css"/>
+                <img src={htmlImg} alt="html" />
+                <img src={javaImg} alt="java" />
+                <img src={postgresImg} alt="postgres" />    
             </div>
         </section>
     );
