@@ -1,6 +1,6 @@
 .navBar{
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     height: 50px;
     align-items: center;
     padding: 20px;
@@ -28,5 +28,11 @@
 }
 
 .linkButton a:hover{
-  text-decoration: underline;
+  text-decoration: underline
+}
+
+.select {
+  padding: 10px;
+  width: 120px;
+  border-radius: 5px;
 }
