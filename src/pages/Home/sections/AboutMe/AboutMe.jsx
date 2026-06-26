@@ -57,7 +57,7 @@ function AboutMe (){
                 </p>
                 <p>
                     {translation[language].about.p2.before} 
-                    <a href="https://www.youtube.com/@luizfelipe_tech" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.youtube.com/@luffeszada" target="_blank" rel="noopener noreferrer">
                         {translation[language].about.p2.linkLabel}
                     </a>
                     {translation[language].about.p2.after}
