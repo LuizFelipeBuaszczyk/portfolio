@@ -19,7 +19,7 @@ function NavBar() {
 
   return (
     <nav className={style.navBar}>
-      <ul>
+      <ul className={style.linkList}>
         <li className={style.linkButton}>
           <Link to="/">{translation[language].homeLink}</Link>
         </li>
@@ -27,7 +27,7 @@ function NavBar() {
           <Link to="/projects">{translation[language].projectLink}</Link>
         </li>
       </ul>
-      <ul>
+      <ul className={style.languageList}>
         <select className={style.select} value={language} onChange={(e) => setLanguage(e.target.value)}>
           <option value="en-us">en-US</option>
           <option value="pt-br">pt-BR</option>
