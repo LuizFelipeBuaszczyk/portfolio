@@ -1,4 +1,4 @@
-section {
+.aboutMeSection {
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -6,7 +6,7 @@ section {
     width: 80%;
 }
 
-section h1 {
+.aboutMeSection h1 {
     text-align: center;
     font-size: 52px;
 }

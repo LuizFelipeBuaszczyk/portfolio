@@ -42,7 +42,7 @@ function AboutMe (){
     const xpYears = getYearsOfXP();
 
     return (
-        <section id="about-me">
+        <section id="about-me" className={style.aboutMeSection}>
             <h1>{translation[language].title}</h1>
             <article className={style.aboutMeArticle}>
                 <p>

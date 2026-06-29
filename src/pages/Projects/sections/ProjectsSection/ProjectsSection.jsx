@@ -1,5 +1,4 @@
 import { useContext } from "react";
-import style from "./ProjectsSection.module.css";
 import ProjectCard from "../../../../components/ProjectCard/ProjectCard";
 
 import { LanguageContext } from "../../../../contexts/LanguageContext";
@@ -49,7 +48,7 @@ function ProjectsSection(){
     return (
         <section id="project-section">
             {projects.map(project => (
-                 <ProjectCard projectData={project[language]}/>    
+                 <ProjectCard key={project["en-us"].title} projectData={project[language]}/>    
             ))} 
         </section>
     )
