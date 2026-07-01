@@ -21,7 +21,7 @@ function Skills () {
     const { language } = useContext(LanguageContext);
 
     return (
-        <section id="skills">
+        <section id="skills" className={style.skills}>
             <h1>{translation[language].title}</h1>
             <div className={style.techStack}>
                 <img src={cssImg} alt="css"/>

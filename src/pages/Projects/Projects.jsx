@@ -1,6 +1,5 @@
 import { useContext } from "react";
 
-import style from "./Projects.module.css"
 import ProjectsSection from "./sections/ProjectsSection/ProjectsSection";
 
 import { LanguageContext } from "../../contexts/LanguageContext";

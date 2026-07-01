@@ -4,8 +4,23 @@
     height: 50px;
     align-items: center;
     padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
 }
-.navBar ul {
+
+.linkList {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    width: 100%;
+}
+
+.languageList {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
