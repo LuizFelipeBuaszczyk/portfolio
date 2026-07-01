@@ -1,6 +1,5 @@
 import { useContext, useState, useEffect } from 'react'
 import styles from './Hero.module.css'
-import responsive from "./Hero.responsive.module.css"
 import Terminal from '../../../../components/Terminal/Terminal'
 import { LanguageContext } from '../../../../contexts/LanguageContext'
 
@@ -32,7 +31,7 @@ export default function Hero() {
   }, [charCount])
 
   return (
-    <section id="hero" className={`${styles.hero} ${responsive.hero}`}>
+    <section id="hero" className={styles.hero} > 
       <div className={styles.namePanel}>
         <h1 className={styles.name}>
           {fullText.slice(0, charCount)}
