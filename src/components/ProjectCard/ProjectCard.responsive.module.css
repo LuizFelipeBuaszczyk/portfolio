@@ -1,5 +1,5 @@
 @media (min-width: 0px) and (max-width: 480px) {
-    .projectCard {
+    .projectCard section {
         display: flex;
         flex-direction: column;
     }
