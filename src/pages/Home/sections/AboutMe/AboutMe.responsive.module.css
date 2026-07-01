@@ -1,0 +1,9 @@
+
+@media (min-width: 0px) and (max-width: 768) {
+    .aboutMeSection {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+}

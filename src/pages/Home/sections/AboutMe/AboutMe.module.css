@@ -1,23 +1,2 @@
-.aboutMeSection {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    gap: 20px;
-    width: 80%;
-}
-
-.aboutMeSection h1 {
-    text-align: center;
-    font-size: 52px;
-}
-
-.aboutMeArticle {
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
-    gap: 10px;
-}
-
-.aboutMeArticle p {
-    font-size: 32px;
-}
+@import './AboutMe.base.module.css';
+@import './AboutMe.responsive.module.css';
