@@ -9,7 +9,7 @@ export default function SocialMedia () {
             <a href="https://github.com/LuizFelipeBuaszczyk" target="_blank" rel="noopener noreferrer">
                 <img src={github} alt="Github logo"/>
             </a>
-            <a href="https://www.linkedin.com/in/luiz-felipe-buaszczyk-99673a302/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/luiz-felipe-buaszczyk/" target="_blank" rel="noopener noreferrer">
                 <img src={linkedin} alt="Linkedin logo"/>
             </a>    
         </div>
