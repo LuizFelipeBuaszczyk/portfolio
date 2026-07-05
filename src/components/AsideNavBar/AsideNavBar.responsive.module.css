@@ -1,11 +1,4 @@
-@media (min-width: 769px) and (max-width: 1024px) {
-    .aside {
-        width: 150px;
-        min-width: 80px;
-    }
-}
-
-@media (min-width: 0px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 1024px) {
   .aside {
     position: fixed;
     bottom: 20px;
