@@ -1,28 +1,27 @@
 import { useContext } from "react";
 
-import style from "./ContactMe.module.css";
+import style from "./FindMe.module.css";
 import SocialMedia from "../../../../components/SocialMedia/SocialMedia";
 
 import { LanguageContext } from "../../../../contexts/LanguageContext";
 
 const translation = {
     "pt-br": {
-        title: "Contato"
+        title: "Encontre-me"
     },
     "en-us": {
-        title: "Contact-me"
+        title: "Find me"
     }
 }
 
-function ContactMe() {
+export default function FindMe() {
     const { language } = useContext(LanguageContext);
 
     return (
-        <section id="contact-me" className={style.contactMe}>
+        <section id="find-me" className={style.findMe}>
             <h1>{translation[language].title}</h1>
             <SocialMedia />
         </section>
     );
 }
 
-export default ContactMe;

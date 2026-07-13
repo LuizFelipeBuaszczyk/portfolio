@@ -9,13 +9,13 @@ const translation = {
         heroLink: "Home",
         aboutMeLink: "Sobre mim",
         skillsLink: "Habilidades",
-        contactMeLink: "Contato"
+        findMeLink: "Encontre-me"
     },
     "en-us": {
         heroLink: "Home",
         aboutMeLink: "About-me",
         skillsLink: "Skills",
-        contactMeLink: "Contact me"
+        findMeLink: "Find me"
     }
 }
 
@@ -43,7 +43,7 @@ function AsideNavBar(){
                         <ScrollLink to='skills' smooth={true} duration={500} offset={-80} onClick={handleLinkClick}>{translation[language].skillsLink}</ScrollLink>
                     </li>       
                     <li className={style.linkButton}>
-                        <ScrollLink to='contact-me' smooth={true} duration={500} offset={-80} onClick={handleLinkClick}>{translation[language].contactMeLink}</ScrollLink>
+                        <ScrollLink to='find-me' smooth={true} duration={500} offset={-80} onClick={handleLinkClick}>{translation[language].findMeLink}</ScrollLink>
                     </li>
                 </ul>
             </nav>
