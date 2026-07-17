@@ -3,8 +3,14 @@
     src: url('./assets/fonts/SourceCode/SourceCodePro-Light.ttf');
 }
 
+@font-face {
+    font-family: 'IBMPlexSans';
+    src: url('./assets/fonts/IBM-Plex-Sans/IBMPlexSans-Latin.woff2') format('woff2');
+}
+
 :root {
     --font-source-code-light: 'SourceCodeLight';
+    --font-ibm-plex-sans: 'IBMPlexSans', sans-serif;
 }
 
 * {
@@ -22,6 +28,7 @@ html, body, #root {
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'IBMPlexSans', sans-serif;
 }
 
 .container {
