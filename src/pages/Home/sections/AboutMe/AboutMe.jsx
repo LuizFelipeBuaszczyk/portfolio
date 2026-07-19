@@ -9,7 +9,7 @@ const translation = {
         about: [
             'Desenvolvedor backend com foco em soluções integradas e escaláveis. Trabalho com <strong>Python</strong> e ecossistemas como FastAPI e Django REST Framework para construir APIs e automações que conectam sistemas legados a aplicações modernas.',
             'Atualmente na <strong>Soluverti</strong>, atuo no desenvolvimento e manutenção de integrações entre sistemas ERP e plataformas web. Cursando <strong>Ciência da Computação</strong> na URI - Erechim.',
-            'Mantenho um <a href="https://www.youtube.com/@luffeszada" target="_blank">canal no YouTube</a> onde compartilho conteúdos sobre tecnologia. No tempo livre, gosto de entender como as coisas funcionam por baixo dos panos.'
+            'No tempo livre, gosto de entender como as coisas funcionam por baixo dos panos.'
         ]
     },
     "en-us": {
@@ -17,7 +17,7 @@ const translation = {
         about: [
             'Backend developer focused on integrated and scalable solutions. I work with <strong>Python</strong> and ecosystems like FastAPI and Django REST Framework to build APIs and automations that connect legacy systems to modern web applications.',
             'Currently at <strong>Soluverti</strong>, I develop and maintain integrations between ERP systems and web platforms. Pursuing a <strong>Computer Science</strong> degree at URI - Erechim.',
-            'I run a <a href="https://www.youtube.com/@luffeszada" target="_blank" >YouTube channel</a> where I share tech content. In my free time, I like to understand how the things work in a low-level perspective.'
+            'In my free time, I like to understand how the things work in a low-level perspective.'
         ]
     }
 }
