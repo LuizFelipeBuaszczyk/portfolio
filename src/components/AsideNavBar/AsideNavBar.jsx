@@ -9,12 +9,14 @@ const translation = {
         heroLink: "Home",
         aboutMeLink: "Sobre mim",
         skillsLink: "Habilidades",
+        experienceLink: "Experiências",
         findMeLink: "Encontre-me"
     },
     "en-us": {
         heroLink: "Home",
         aboutMeLink: "About-me",
         skillsLink: "Skills",
+        experienceLink: "Experience",
         findMeLink: "Find me"
     }
 }
@@ -42,6 +44,9 @@ function AsideNavBar(){
                     <li className={style.linkButton}>
                         <ScrollLink to='skills' smooth={true} duration={500} offset={-80} onClick={handleLinkClick}>{translation[language].skillsLink}</ScrollLink>
                     </li>       
+                    <li className={style.linkButton}>
+                        <ScrollLink to='experience' smooth={true} duration={500} offset={-80} onClick={handleLinkClick}>{translation[language].experienceLink}</ScrollLink>
+                    </li>
                     <li className={style.linkButton}>
                         <ScrollLink to='find-me' smooth={true} duration={500} offset={-80} onClick={handleLinkClick}>{translation[language].findMeLink}</ScrollLink>
                     </li>
