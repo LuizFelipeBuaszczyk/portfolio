@@ -1,6 +1,7 @@
 import Hero from "./sections/Hero/Hero";
 import AboutMe from "./sections/AboutMe/AboutMe";
 import Skills from "./sections/Skills/Skills";
+import Experience from "./sections/Experience/Experience";
 import FindMe from "./sections/FindMe/FindMe";
 import AsideNavBar from "../../components/AsideNavBar/AsideNavBar";
 
@@ -16,6 +17,7 @@ function Home() {
         <Hero />
         <AboutMe />
         <Skills />
+        <Experience />
         <FindMe />
       </div>
     </div>
