@@ -67,7 +67,16 @@ export default function Terminal() {
   useEffect(() => {
     outputRef.current?.scrollTo({ top: outputRef.current.scrollHeight, behavior: 'smooth' })
   }, [output])
+  
+  useEffect(() => {
+    setOutput([
+      { type: 'system', text: translations[language].boot.title },
+      { type: 'system', text: translations[language].boot.welcome },
+      { type: 'system', text: translations[language].boot.hint }
+    ])
 
+  }, [language])
+    
   const processCommand = (cmd) => {
     const args = cmd.trim().split(' ')
     const command = args[0]?.toLowerCase()
