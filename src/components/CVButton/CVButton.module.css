@@ -1,0 +1,18 @@
+.cvButton {
+  display: inline-block;
+  margin-top: 24px;
+  padding: 10px 24px;
+  font-family: 'SourceCodeLight', 'Courier New', monospace;
+  font-size: 16px;
+  color: #000000;
+  background: transparent;
+  border: 1px solid #6ee787;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.cvButton:hover {
+  background: #6ee787;
+  color: #0d1c1c;
+}

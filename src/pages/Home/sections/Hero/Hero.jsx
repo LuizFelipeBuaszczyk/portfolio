@@ -1,6 +1,7 @@
 import { useContext, useState, useEffect } from 'react'
 import styles from './Hero.module.css'
 import Terminal from '../../../../components/Terminal/Terminal'
+import CVButton from '../../../../components/CVButton/CVButton'
 import { LanguageContext } from '../../../../contexts/LanguageContext'
 
 const translations = {
@@ -37,6 +38,7 @@ export default function Hero() {
           {fullText.slice(0, charCount)}
           {!done && <span className={styles.typingCursor}>|</span>}
         </h1>
+        <CVButton />
       </div>
       <Terminal />
     </section>
