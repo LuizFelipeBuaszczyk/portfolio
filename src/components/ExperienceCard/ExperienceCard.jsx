@@ -6,7 +6,7 @@ export default function ExperienceCard({ exp, language }) {
     return (
         <div className={style.cardsContainer}>
             <div key={exp.id} className={style.card}>
-                <div>
+                <div className={style.divImage}>
                     <img src={exp.logo} alt={exp.companyName} />
                 </div>
                 <div className={style.cardContent}>
