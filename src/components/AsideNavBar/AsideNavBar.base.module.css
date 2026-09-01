@@ -19,19 +19,6 @@
   list-style-type: none;
 }
 
-.linkButton {
-  background: none;
-  border: none;
-  color: inherit;
-  cursor: pointer;
-  margin: 0 1rem;
-  padding: 5px;
-}
-
-.linkButton a:hover{
-  text-decoration: underline;
-}
-
 .hamburger {
   display: none;
 }
