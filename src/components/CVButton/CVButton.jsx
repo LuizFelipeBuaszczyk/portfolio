@@ -1,6 +1,7 @@
 import { useContext } from 'react'
 import styles from './CVButton.module.css'
-import cvUrl from '@/assets/data/cv.pdf'
+import cv_pt from '@/assets/data/cv/pt_cv.pdf'
+import cv_en from '@/assets/data/cv/en_cv.pdf'
 import { LanguageContext } from '../../contexts/LanguageContext'
 
 const translations = {
@@ -13,7 +14,7 @@ export default function CVButton() {
 
   return (
     <a
-      href={cvUrl}
+      href={ language == 'pt-br' ? cv_pt : cv_en }
       target="_blank"
       className={styles.cvButton}
     >
